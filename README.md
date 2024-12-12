@@ -19,8 +19,9 @@ bash create_app.sh # script only creates a burp.desktop file in your current dir
 sudo cp burp.desktop /usr/share/applications/ # enjoy your burpsuite professional from applications menu
 ```
 
-Install Missing GUI dependencies:
+Install Missing GUI dependencies && java:
 
 ```
+sudo apt-get install openjdk-21-jdk
 sudo apt-get install libx11-dev libgtk-3-0
 ```
